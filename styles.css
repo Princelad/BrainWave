@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #313244;
+    font-family: Pacifico, cursive;
+    background-image: url("Element/writing-background-nah51tmxpohtul8o.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+h1 {
+    color: #B5C18E; 
+    font-size: 6vh;
+    text-shadow: 3px 3px 8px #585b70;
 }
 
 .login-container {
-    background-color: #fff;
+    background-color: #B99470;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
     text-align: center;
 }
 
@@ -32,7 +45,7 @@ body {
 }
 
 .input-group input {
-    width: 100%;
+    width: 400px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -42,13 +55,15 @@ button {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
+    border-radius: 10px;
+    background-color: #F7DCB9;
+    color: #B5C18E;
+    font-size: 20px;
+    font-family: Pacifico, cursive;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #B5C18E;
+    color: #B99470;
 }
