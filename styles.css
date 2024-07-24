@@ -45,7 +45,7 @@ h1 {
 }
 
 .input-group input {
-    width: 400px;
+    width: 480px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -61,9 +61,11 @@ button {
     font-size: 20px;
     font-family: Pacifico, cursive;
     cursor: pointer;
+    text-shadow: 1px 1px 3px #585b70;
 }
 
 button:hover {
     background-color: #B5C18E;
     color: #B99470;
+    text-shadow: 1px 1px 3px #585b70;
 }
