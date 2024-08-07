@@ -77,4 +77,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- Inspired by [Notion](https://www.notion.so/
+- Inspired by [Notion](https://www.notion.so/)
