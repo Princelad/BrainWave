@@ -13,7 +13,7 @@ export const Fotter = () => {
           <Button variant="ghost" size="sm">
             Terms & Conditions
           </Button>
-        </div>
+        </div>  
       </div>
     );
  }
