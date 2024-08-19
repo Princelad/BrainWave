@@ -1,10 +1,24 @@
 "use client"
 
+import { useScrollTop } from "@/hooks/use-scroll-top";
+import { cn } from "@/lib/utils";
+import { Logo } from "./Logo";
+
+
 export const Navbar = () => {
-    return
-    (
-        <div>   
-            NavBar
+    const scrolled = useScrollTop();
+
+    // return(
+    //     <div className={cn(
+    //         "z-50 bg-background fixed top-0 flex items-center w-full p-6" , 
+    //         scrolled &&  "border-b shadow-sm"
+    //     )}>
+    //     navbar!
+    //     </div>
+    // );
+    return (
+        <div>
+            navBar!
         </div>
-    )    
+    )
 }
