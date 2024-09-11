@@ -23,12 +23,12 @@ export const UserItem = () => {
           role="button"
           className="flex w-full items-center p-3 text-sm hover:bg-primary/5"
         >
-          <div className="flex max-w-[9.375rem] items-center gap-x-2">
+          <div className="flex max-w-[9.500rem] items-center gap-x-2">
             <Avatar className="h-5 w-5">
               <AvatarImage src={user?.imageUrl} />
             </Avatar>
             <span className="line-clamp-1 text-start font-medium">
-              {user?.fullName}&apos;s Zotion
+              {user?.fullName}
             </span>
           </div>
           <ChevronsLeftRight className="ml-2 h-4 w-4 rotate-90 text-muted-foreground" />
@@ -52,7 +52,7 @@ export const UserItem = () => {
             </div>
             <div className="space-y-1">
               <p className="line-clamp-1 text-sm">
-                {user?.fullName}&apos;s Zotion
+                {user?.fullName} &apos;s Brainwave
               </p>
             </div>
           </div>

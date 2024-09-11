@@ -11,20 +11,20 @@ import { EdgeStoreProvider } from "@/lib/edgestore";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zotion",
+  title: "Brainwave",
   description:
     "The seamless platform where creative and productive work happens.",
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/logo.svg",
-        href: "/logo.svg",
+        url: "/LOGO_b.svg",
+        href: "/LOGO_b.svg",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/LOGO_b.svg",
+        href: "/LOGO_b.svg",
       },
     ],
   },
