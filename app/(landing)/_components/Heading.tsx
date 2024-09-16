@@ -39,7 +39,7 @@ export const Heading = () => {
             Get Brainwave free
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
-        </SignInButton>
+        </SignInButton> 
       )}
     </div>
   );
