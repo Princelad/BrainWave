@@ -32,7 +32,7 @@ To get started with BrainWave, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/brainwave.git
+   git clone https://github.com/Princelad/brainwave.git
    cd brainwave
    ```
 
