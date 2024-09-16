@@ -27,23 +27,23 @@ export const Navbar = () => {
         {!isLoading && !isAuthenticated && (
           <>
             <SignInButton mode="modal">
-              <Button variant="ghost" size="sm">
+              <Button variant="ghost" size="sm" className="hover:bg-green-200">
                 Log In
               </Button>
             </SignInButton>
             <SignInButton mode="modal">
-              <Button size="sm">Get Brainwave  Free</Button>
+              <Button size="sm"> Get Brainwave Free</Button>
             </SignInButton>
           </>
         )}
         {isAuthenticated && !isLoading && (
           <>
-            <Button variant="ghost" size="sm" asChild>
+            <Button variant="ghost" size="sm" asChild className="hover:bg-green-200">
               <Link href="/documents"> Enter Brainwave </Link>
             </Button>
             <UserButton afterSignOutUrl="/" />
           </>
-        )}
+        )}  
         <ModeToggle />
       </div>
     </nav>
