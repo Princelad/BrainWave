@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: "https://allowed-starfish-22.clerk.accounts.dev",
+      domain: "https://musical-dodo-93.clerk.accounts.dev/",
       applicationID: "convex",
     },
   ],
